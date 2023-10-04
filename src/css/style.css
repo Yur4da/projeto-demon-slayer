@@ -163,7 +163,7 @@ main .personagem .imagem {
     }
 
     main .personagem .imagem {
-        height: 420px;
+        height: 250px;
     }
 
     .conteudo {
@@ -172,12 +172,13 @@ main .personagem .imagem {
     }
 
     .conteudo .logo {
-        margin-left: 100px;
+        width: 30%;
+        margin: 0 auto;
     }
 
     .botoes {
         padding: 20px;
-        top: -5%;
+        top: -8%;
     }
 
     .botoes .botao img {
