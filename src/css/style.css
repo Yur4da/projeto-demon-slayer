@@ -7,7 +7,7 @@
 
 body {
     background-color: #000000;
-    overflow: hidden; /* ESCONDER A SOBRA DO SCROL QUANDO SOBRAR */
+    overflow: hidden; 
 }
 
 main::after {
@@ -18,7 +18,7 @@ main::after {
     min-height: 100vh;
     width: 80vh;
 
-    /* ######### INSERIR SOMBREADO AO CANTO ESQUERDO DA PAGINA */
+    
     background: linear-gradient(-249deg, #000 45%, rgba(0, 0, 0, 0) 70%) no-repeat;
 
 }
@@ -35,7 +35,7 @@ main .personagem.selecionado {
 main .personagem .imagem {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* PARA NAO DEIXAR IMAGEMM DISTORCIDA */
+    object-fit: cover; 
 
 }
 
@@ -88,7 +88,7 @@ main .personagem .imagem {
     justify-content: center;
     align-items: center;
 
-    gap: 20px; /* para dar espaçamento em todos itens quando usa flex */
+    gap: 20px; 
 }
 
 .botoes .botao {
